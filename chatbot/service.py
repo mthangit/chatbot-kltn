@@ -39,7 +39,7 @@ class ChatbotService:
     def send_message(self, *, session_id: str, message: str, user_id: int | None = None) -> dict[str, Any]:
         print(f"[ChatbotService] Received message for session {session_id}: {message}")
         with self._db() as db:
-            graph = build_graph(db, self.memory, self.analyzer, self.rag, self.redis_memory)
+            graph = build_graph(db, self.memory, self.analyzer, self.redis_memory)
             state: ChatbotState = {
                 "session_id": session_id,
                 "user_id": user_id,
@@ -50,6 +50,7 @@ class ChatbotService:
             tool_result = result.get("tool_result", {})
             context = MessageContext(
                 products=tool_result.get("products"),
+                suggested_products=tool_result.get("suggested_products"),
                 orders=tool_result.get("orders"),
                 profile=tool_result.get("profile"),
             )

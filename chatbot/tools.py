@@ -16,24 +16,11 @@ def search_products_by_keyword(
     *,
     min_price: float | None = None,
     max_price: float | None = None,
-    rag: QdrantRAG | None = None,
-    query_text: str | None = None,
 ) -> list[dict]:
     clean_terms = [term.lower() for term in (keywords or []) if term]
     print(f"[Tools] search_products_by_keyword terms={clean_terms}, min={min_price}, max={max_price}")
 
-    if rag and rag.available and query_text:
-        print("[Tools] Using Qdrant RAG for semantic search")
-        rag_results = rag.search_products(
-            query_text=query_text,
-            limit=5,
-            min_price=min_price,
-            max_price=max_price,
-        )
-        if rag_results:
-            return rag_results
-
-    print("[Tools] Falling back to SQL search")
+    print("[Tools] Using SQL search")
     query = db.query(Product).filter(Product.is_active.is_(True))
     if clean_terms:
         like_clauses = [Product.product_name.ilike(f"%{term}%") for term in clean_terms]
@@ -50,7 +37,7 @@ def search_products_by_keyword(
 
     return [
         {
-            "product_id": product.product_id,
+            "product_id": str(product.id),
             "product_code": product.product_code,
             "product_name": product.product_name or "",
             "price": float(product.current_price or 0),
@@ -74,6 +61,32 @@ def get_user_orders(db: Session, user_id: int) -> list[dict]:
             "total_amount": float(order.total_amount),
         }
         for order in orders
+    ]
+
+
+def suggest_products(db: Session, limit: int = 3) -> list[dict]:
+    """Suggest popular products when search returns no results."""
+    products = (
+        db.query(Product)
+        .filter(Product.is_active.is_(True))
+        .order_by(Product.created_at.desc())
+        .limit(limit)
+        .all()
+    )
+    return [
+        {
+            "product_id": product.product_id,
+            "product_code": product.product_code,
+            "product_name": product.product_name or "",
+            "price": float(product.current_price or 0),
+            "price_text": product.current_price_text,
+            "unit": product.unit,
+            "product_url": product.product_url,
+            "image_url": product.image_url,
+            "discount_percent": product.discount_percent,
+            "score": None,
+        }
+        for product in products
     ]
 
 

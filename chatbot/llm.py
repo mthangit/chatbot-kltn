@@ -79,7 +79,7 @@ class LLMAnalyzer:
                     ),
                     (
                         "human",
-                        "user_query: {query}\nproducts: {products}",
+                        "user_query: {query}\nproducts: {products}\nsuggested_products: {suggested_products}",
                     ),
                 ]
             )
@@ -150,15 +150,52 @@ class LLMAnalyzer:
             print(f"[LLM] Error analyzing conversation: {e}")
             return None
 
-    def compose_product_response(self, *, query: str | None, products: list[dict]) -> str | None:
+    def compose_product_response(
+        self, *, query: str | None, products: list[dict], suggested_products: list[dict] | None = None
+    ) -> str | None:
         if not self.available:
             return None
         payload = {
             "query": query or "",
             "products": json.dumps(products, ensure_ascii=False),
+            "suggested_products": json.dumps(suggested_products or [], ensure_ascii=False),
         }
         response = self.product_chain.invoke(payload)
-        return response.strip() if isinstance(response, str) else None
+        if isinstance(response, str):
+            cleaned = response.strip()
+            cleaned = self._remove_table_format(cleaned)
+            return cleaned
+        return None
+
+    @staticmethod
+    def _remove_table_format(text: str) -> str:
+        """Remove table formatting from text response."""
+        import re
+
+        lines = text.split("\n")
+        cleaned_lines = []
+        in_table = False
+
+        for line in lines:
+            stripped = line.strip()
+            if re.match(r"^[\|\-\s:]+$", stripped):
+                in_table = True
+                continue
+            if "|" in stripped and stripped.count("|") >= 2:
+                in_table = True
+                parts = [p.strip() for p in stripped.split("|") if p.strip()]
+                if parts:
+                    cleaned_lines.append(", ".join(parts))
+                continue
+            if in_table and not stripped:
+                in_table = False
+                continue
+            if not in_table:
+                cleaned_lines.append(line)
+
+        result = "\n".join(cleaned_lines).strip()
+        result = re.sub(r"\n{3,}", "\n\n", result)
+        return result
 
     @staticmethod
     def _load_json(payload: str) -> dict | None:

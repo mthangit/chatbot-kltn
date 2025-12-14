@@ -17,3 +17,4 @@ structlog
 cryptography
 langchain-google-genai
 qdrant-client
+fastembed

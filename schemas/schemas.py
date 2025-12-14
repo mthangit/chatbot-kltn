@@ -60,6 +60,11 @@ class MessageContext(BaseModel):
         description="List of products found (when intent is product_search). "
         "Contains full product details when using Qdrant RAG, or basic info when using SQL fallback."
     )
+    suggested_products: list[ProductInfo] | None = Field(
+        None,
+        description="List of suggested products when no products found (when intent is product_search). "
+        "Contains 3 most recent active products as recommendations."
+    )
     orders: list[OrderInfo] | None = Field(
         None,
         description="List of user orders (when intent is orders). Maximum 5 most recent orders."

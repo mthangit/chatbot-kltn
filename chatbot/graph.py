@@ -8,7 +8,7 @@ from chatbot.memory import ConversationMemory
 from chatbot.rag import QdrantRAG
 from chatbot.redis_memory import RedisConversationMemory
 from chatbot.state import ChatbotState
-from chatbot.tools import get_user_orders, get_user_profile, search_products_by_keyword
+from chatbot.tools import get_user_orders, get_user_profile, search_products_by_keyword, suggest_products
 
 INTENT_KEYWORDS = {
     "orders": ["order", "orders", "tracking", "shipment"],
@@ -102,7 +102,7 @@ def _extract_keywords(ai: LLMAnalyzer | None, state: ChatbotState) -> ChatbotSta
     return state
 
 
-def run_tools(state: ChatbotState, db: Session, rag: QdrantRAG | None = None) -> ChatbotState:
+def run_tools(state: ChatbotState, db: Session) -> ChatbotState:
     intent = state.get("intent")
     print(f"[LangGraph] Running tools for intent: {intent}")
     if intent == "orders" and state.get("user_id"):
@@ -113,15 +113,12 @@ def run_tools(state: ChatbotState, db: Session, rag: QdrantRAG | None = None) ->
         state["tool_result"] = {"profile": get_user_profile(db, state["user_id"])}
     else:
         print("[LangGraph] Searching products")
-        query_text = state.get("product_query") or state.get("message", "")
         state["tool_result"] = {
             "products": search_products_by_keyword(
                 db,
                 state.get("keywords"),
                 min_price=state.get("min_price"),
                 max_price=state.get("max_price"),
-                rag=rag,
-                query_text=query_text,
             )
         }
     print(f"[LangGraph] Tool result keys: {list((state.get('tool_result') or {}).keys())}")
@@ -133,6 +130,7 @@ def craft_response(
     memory: ConversationMemory,
     ai: LLMAnalyzer | None,
     redis_memory: RedisConversationMemory | None,
+    db: Session,
 ) -> ChatbotState:
     intent = state.get("intent")
     result = state.get("tool_result") or {}
@@ -150,27 +148,46 @@ def craft_response(
             reply = "Thông tin tài khoản của bạn:"
         else:
             reply = "Không tìm thấy thông tin tài khoản. Vui lòng kiểm tra lại."
-    elif intent == "product_search" and result.get("products"):
-        names = ", ".join(
-            p["product_name"] for p in result["products"] if p.get("product_name")
-        )
+    elif intent == "product_search":
+        products = result.get("products", [])
         query_desc = state.get("product_query")
-        ai_reply = (
-            ai.compose_product_response(query=query_desc, products=result.get("products", []))
-            if ai and ai.available
-            else None
-        )
-        if ai_reply:
-            reply = ai_reply
-        else:
-            prefix = f"You asked about {query_desc}. " if query_desc else ""
-            reply = (
-                f"{prefix}I found these products: {names}"
-                if names
-                else f"{prefix}No active products found."
+        
+        if products:
+            ai_reply = (
+                ai.compose_product_response(query=query_desc, products=products, suggested_products=[])
+                if ai and ai.available
+                else None
             )
+            if ai_reply:
+                reply = ai_reply
+            else:
+                names = ", ".join(p["product_name"] for p in products if p.get("product_name"))
+                prefix = f"Bạn đang tìm: {query_desc}. " if query_desc else ""
+                reply = f"{prefix}Tôi tìm thấy các sản phẩm sau: {names}"
+        else:
+            suggested = suggest_products(db, limit=3) if db else []
+            state["tool_result"]["suggested_products"] = suggested
+            ai_reply = (
+                ai.compose_product_response(query=query_desc, products=[], suggested_products=suggested)
+                if ai and ai.available
+                else None
+            )
+            if ai_reply:
+                reply = ai_reply
+            else:
+                if suggested:
+                    names = ", ".join(p["product_name"] for p in suggested if p.get("product_name"))
+                    reply = (
+                        f"Rất tiếc, tôi không tìm thấy sản phẩm phù hợp với yêu cầu của bạn. "
+                        f"Tuy nhiên, bạn có thể tham khảo một số sản phẩm phổ biến sau: {names}"
+                    )
+                else:
+                    reply = (
+                        "Rất tiếc, hiện tại không có sản phẩm phù hợp. "
+                        "Bạn có thể thử tìm kiếm với từ khóa khác hoặc liên hệ hỗ trợ để được tư vấn thêm."
+                    )
     else:
-        reply = "I could not find relevant data but I am still ready to help."
+        reply = "Xin lỗi, tôi chưa hiểu rõ yêu cầu của bạn. Bạn có thể diễn đạt lại được không?"
 
     memory.append(state["session_id"], "assistant", reply)
 
@@ -190,7 +207,6 @@ def build_graph(
     db: Session,
     memory: ConversationMemory,
     ai: LLMAnalyzer | None,
-    rag: QdrantRAG | None = None,
     redis_memory: RedisConversationMemory | None = None,
 ) -> StateGraph:
     graph = StateGraph(ChatbotState)
@@ -198,8 +214,8 @@ def build_graph(
     graph.add_node("analyze", lambda state: _analyze_conversation(ai, redis_memory, state))
     graph.add_node("intent", lambda state: _detect_intent(ai, state))
     graph.add_node("keywords", lambda state: _extract_keywords(ai, state))
-    graph.add_node("tools", lambda state: run_tools(state, db, rag))
-    graph.add_node("response", lambda state: craft_response(state, memory, ai, redis_memory))
+    graph.add_node("tools", lambda state: run_tools(state, db))
+    graph.add_node("response", lambda state: craft_response(state, memory, ai, redis_memory, db))
 
     graph.add_edge(START, "analyze")
     graph.add_edge("analyze", "intent")

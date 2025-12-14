@@ -1,7 +1,7 @@
 from typing import Any
 
 from qdrant_client import QdrantClient
-from qdrant_client.models import Filter, FieldCondition, Range, Query
+from qdrant_client.models import Filter, FieldCondition, Range
 
 from core.config import Settings
 
@@ -55,17 +55,35 @@ class QdrantRAG:
 
             search_filter = Filter(must=filters) if filters else None
 
-            query = Query(
-                query=query_text,
-                using=None,
-                filter=search_filter,
-            )
+            if not query_text or not query_text.strip():
+                print("[RAG] Empty query text, skipping Qdrant search")
+                return []
 
-            results = self.client.query_points(
-                collection_name=self.collection,
-                query=query,
-                limit=limit,
-            )
+            query_text_clean = query_text.strip()
+            
+            try:
+                from qdrant_client.models import QueryRequest, Query
+                query_req = QueryRequest(
+                    query=Query(text=query_text_clean),
+                    limit=limit,
+                    filter=search_filter,
+                )
+                results = self.client.query(
+                    collection_name=self.collection,
+                    query_request=query_req,
+                )
+            except Exception as e:
+                print(f"[RAG] Error with QueryRequest: {e}")
+                try:
+                    results = self.client.query(
+                        collection_name=self.collection,
+                        query_text=query_text_clean,
+                        limit=limit,
+                        query_filter=search_filter,
+                    )
+                except Exception as e2:
+                    print(f"[RAG] Error with query_text: {e2}, falling back to SQL")
+                    return []
 
             products = []
             for point in results.points:

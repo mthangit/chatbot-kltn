@@ -1,0 +1,253 @@
+[
+  {
+    "id": 1,
+    "question": "Làm thế nào để chọn rau củ tươi ngon?",
+    "answer": "Để chọn rau củ tươi ngon, bạn nên: 1) Chọn rau có màu sắc tươi sáng, không bị héo úa, 2) Lá rau còn xanh, không bị vàng hoặc đốm nâu, 3) Rau củ còn cứng, không mềm nhũn, 4) Không có mùi lạ hoặc dấu hiệu hư hỏng, 5) Chọn rau theo mùa để đảm bảo độ tươi ngon và giá tốt. Rau củ tươi thường có độ giòn, màu sắc tự nhiên và không bị dập nát."
+  },
+  {
+    "id": 2,
+    "question": "Cách bảo quản rau củ tươi trong tủ lạnh?",
+    "answer": "Để bảo quản rau củ tươi: 1) Rửa sạch và để ráo nước trước khi cho vào tủ lạnh, 2) Bọc trong túi giấy hoặc túi có lỗ thông khí, không bọc kín bằng túi nilon, 3) Để trong ngăn mát tủ lạnh (nhiệt độ 2-5 độ C), 4) Một số loại như cà chua, khoai tây nên để ngoài tủ lạnh, 5) Rau có lá nên để đứng thẳng trong cốc nước. Rau củ tươi thường bảo quản được 3-7 ngày tùy loại."
+  },
+  {
+    "id": 3,
+    "question": "Trái cây nào nên ăn ngay và trái cây nào nên để chín?",
+    "answer": "Trái cây nên ăn ngay khi mua: táo, lê, nho, dâu tây, cherry (đã chín). Trái cây nên để chín ở nhiệt độ phòng: chuối, xoài, đu đủ, bơ, dưa hấu. Sau khi chín, cho vào tủ lạnh để bảo quản lâu hơn. Trái cây chưa chín nên để ở nhiệt độ phòng, tránh ánh nắng trực tiếp. Khi chín, có thể bảo quản trong tủ lạnh để giữ độ tươi ngon."
+  },
+  {
+    "id": 4,
+    "question": "Nông sản hữu cơ khác gì với nông sản thường?",
+    "answer": "Nông sản hữu cơ được trồng không sử dụng thuốc trừ sâu hóa học, phân bón hóa học, chất kích thích tăng trưởng. Thay vào đó sử dụng phân hữu cơ, thuốc trừ sâu tự nhiên, và phương pháp canh tác tự nhiên. Nông sản hữu cơ thường có giá cao hơn nhưng an toàn hơn, tốt cho sức khỏe và môi trường. Nông sản hữu cơ có chứng nhận rõ ràng từ các tổ chức uy tín."
+  },
+  {
+    "id": 5,
+    "question": "Làm sao để nhận biết nông sản có chứa hóa chất?",
+    "answer": "Dấu hiệu nông sản có thể chứa hóa chất: 1) Màu sắc quá đẹp, quá đồng đều không tự nhiên, 2) Kích thước lớn bất thường, 3) Không có sâu bọ hoặc dấu vết tự nhiên, 4) Mùi vị nhạt, không thơm tự nhiên, 5) Bảo quản được quá lâu mà không hư. Nông sản tự nhiên thường có hình dáng không hoàn hảo, có thể có vết sâu bọ nhỏ, màu sắc tự nhiên và mùi thơm đặc trưng."
+  },
+  {
+    "id": 6,
+    "question": "Nông sản theo mùa có lợi ích gì?",
+    "answer": "Nông sản theo mùa có nhiều lợi ích: 1) Tươi ngon hơn vì được thu hoạch đúng thời điểm, 2) Giá rẻ hơn do nguồn cung dồi dào, 3) Giàu dinh dưỡng hơn vì phát triển tự nhiên, 4) Ít hóa chất hơn do không cần kích thích tăng trưởng, 5) Tốt cho môi trường vì giảm năng lượng bảo quản. Mỗi mùa có những loại nông sản đặc trưng, nên chọn mua theo mùa để có trải nghiệm tốt nhất."
+  },
+  {
+    "id": 7,
+    "question": "Cách rửa rau củ để loại bỏ hóa chất?",
+    "answer": "Để rửa rau củ sạch: 1) Rửa dưới vòi nước chảy mạnh, 2) Ngâm trong nước muối loãng (1 thìa muối/1 lít nước) 10-15 phút, 3) Có thể ngâm trong nước vo gạo hoặc giấm pha loãng, 4) Rửa lại nhiều lần với nước sạch, 5) Gọt vỏ đối với rau củ có vỏ dày. Đối với rau lá, nên tách từng lá để rửa kỹ. Rửa sạch giúp loại bỏ bụi bẩn, vi khuẩn và một phần hóa chất còn sót lại."
+  },
+  {
+    "id": 8,
+    "question": "Trái cây nào giàu vitamin C nhất?",
+    "answer": "Các loại trái cây giàu vitamin C: 1) Cam, quýt, bưởi - nguồn vitamin C dồi dào, 2) Ổi - chứa lượng vitamin C cao gấp 4 lần cam, 3) Dâu tây, kiwi - giàu vitamin C và chất chống oxy hóa, 4) Đu đủ, xoài - vitamin C và vitamin A, 5) Dứa, dưa hấu - vitamin C và nước. Vitamin C giúp tăng cường miễn dịch, làm đẹp da và chống lão hóa. Nên ăn trái cây tươi để giữ nguyên hàm lượng vitamin C."
+  },
+  {
+    "id": 9,
+    "question": "Rau củ nào tốt cho sức khỏe tim mạch?",
+    "answer": "Các loại rau củ tốt cho tim mạch: 1) Rau xanh đậm (cải bó xôi, cải xoăn) - giàu kali và chất xơ, 2) Cà chua - lycopene giúp giảm cholesterol, 3) Cà rốt - beta-carotene và chất xơ, 4) Bông cải xanh - chứa sulforaphane tốt cho tim, 5) Tỏi, hành - giúp giảm huyết áp. Những rau củ này giàu chất chống oxy hóa, chất xơ và các vitamin khoáng chất cần thiết cho hệ tim mạch khỏe mạnh."
+  },
+  {
+    "id": 10,
+    "question": "Làm thế nào để chọn trái cây ngon?",
+    "answer": "Cách chọn trái cây ngon: 1) Chọn trái có màu sắc đặc trưng của loại quả, không quá xanh hoặc quá chín, 2) Trái cây có mùi thơm tự nhiên, 3) Cầm chắc tay, không quá mềm hoặc quá cứng, 4) Vỏ không bị dập, nứt, hoặc có đốm đen, 5) Chọn theo mùa để đảm bảo độ ngon. Mỗi loại trái cây có cách chọn riêng, ví dụ: xoài chín có mùi thơm, cam nặng tay thường nhiều nước, dưa hấu gõ kêu đục là ngon."
+  },
+  {
+    "id": 11,
+    "question": "Nông sản tươi sống nên mua ở đâu?",
+    "answer": "Nên mua nông sản tươi sống ở: 1) Cửa hàng uy tín có nguồn gốc rõ ràng, 2) Siêu thị, cửa hàng thực phẩm sạch, 3) Chợ nông sản địa phương vào buổi sáng sớm, 4) Trang trại trực tiếp hoặc hợp tác xã nông nghiệp, 5) Website ecommerce uy tín có cam kết chất lượng. Quan trọng là chọn nơi có nguồn gốc xuất xứ rõ ràng, đảm bảo vệ sinh an toàn thực phẩm và có chính sách đổi trả nếu không đạt chất lượng."
+  },
+  {
+    "id": 12,
+    "question": "Cách bảo quản trái cây để giữ được lâu?",
+    "answer": "Bảo quản trái cây: 1) Trái cây chưa chín để ở nhiệt độ phòng, tránh ánh nắng, 2) Trái cây đã chín cho vào tủ lạnh (nhiệt độ 4-8 độ C), 3) Một số loại như chuối, bơ nên để chín ngoài tủ lạnh rồi mới cho vào, 4) Trái cây đã cắt nên bọc kín và dùng trong 1-2 ngày, 5) Không để trái cây chín chung với trái cây chưa chín. Mỗi loại trái cây có cách bảo quản riêng, nên tách riêng để tránh làm chín lẫn nhau."
+  },
+  {
+    "id": 13,
+    "question": "Rau củ nào giàu chất xơ nhất?",
+    "answer": "Các loại rau củ giàu chất xơ: 1) Đậu bắp, đậu que - chứa nhiều chất xơ hòa tan, 2) Bông cải xanh, súp lơ - giàu chất xơ và vitamin, 3) Cà rốt, khoai lang - chất xơ và beta-carotene, 4) Rau xanh đậm (rau muống, rau ngót) - chất xơ và sắt, 5) Đậu đỗ các loại - nguồn chất xơ và protein dồi dào. Chất xơ giúp hỗ trợ tiêu hóa, giảm cholesterol và kiểm soát đường huyết. Nên ăn đa dạng các loại rau củ để bổ sung đủ chất xơ."
+  },
+  {
+    "id": 14,
+    "question": "Làm sao để biết nông sản còn tươi?",
+    "answer": "Dấu hiệu nông sản còn tươi: 1) Rau củ còn cứng, giòn, không mềm nhũn, 2) Màu sắc tươi sáng, không bị héo úa, 3) Không có mùi lạ, mùi hôi, 4) Không có dấu hiệu hư hỏng, nấm mốc, 5) Rau lá còn xanh, không vàng hoặc đốm nâu. Đối với trái cây, nên chọn trái còn tươi, không bị dập, có mùi thơm tự nhiên. Nông sản tươi thường có độ ẩm, màu sắc tự nhiên và không có dấu hiệu héo úa."
+  },
+  {
+    "id": 15,
+    "question": "Nông sản nào tốt cho người ăn kiêng?",
+    "answer": "Nông sản tốt cho người ăn kiêng: 1) Rau xanh ít calo (dưa chuột, cà chua, rau diếp) - nhiều nước và chất xơ, 2) Trái cây ít đường (táo, lê, dâu tây) - giàu chất xơ, 3) Rau củ giàu chất xơ (bông cải, cà rốt) - tạo cảm giác no lâu, 4) Đậu đỗ - protein và chất xơ, ít chất béo, 5) Khoai lang - tinh bột tốt, giàu chất xơ. Những nông sản này giúp no lâu, ít calo và giàu dinh dưỡng, phù hợp cho chế độ ăn kiêng lành mạnh."
+  },
+  {
+    "id": 16,
+    "question": "Cách chọn rau củ cho trẻ em?",
+    "answer": "Chọn rau củ cho trẻ em: 1) Ưu tiên rau củ hữu cơ, an toàn, 2) Chọn rau củ tươi, không héo úa, 3) Rau củ có màu sắc đẹp để kích thích trẻ ăn, 4) Chọn loại mềm, dễ ăn (bí đỏ, khoai lang, cà rốt), 5) Đảm bảo nguồn gốc rõ ràng, không có hóa chất. Nên rửa sạch kỹ, nấu chín mềm và chế biến đa dạng để trẻ dễ ăn. Rau củ giàu vitamin và khoáng chất rất cần thiết cho sự phát triển của trẻ."
+  },
+  {
+    "id": 17,
+    "question": "Trái cây nào tốt cho da đẹp?",
+    "answer": "Trái cây tốt cho da: 1) Cam, quýt - vitamin C giúp sáng da, chống lão hóa, 2) Dâu tây, việt quất - chất chống oxy hóa, làm chậm lão hóa, 3) Đu đủ - vitamin A và enzyme papain tốt cho da, 4) Bơ - chất béo tốt và vitamin E dưỡng ẩm da, 5) Dưa hấu - nước và lycopene chống nắng tự nhiên. Những trái cây này giàu vitamin, chất chống oxy hóa giúp da khỏe mạnh, sáng mịn và chống lão hóa."
+  },
+  {
+    "id": 18,
+    "question": "Rau củ nào nên ăn sống và rau củ nào nên nấu chín?",
+    "answer": "Rau củ nên ăn sống: dưa chuột, cà chua, rau diếp, rau mầm, củ cải trắng - giữ nguyên vitamin và enzyme. Rau củ nên nấu chín: bông cải, cà rốt, cà chua (lycopene), khoai tây, đậu đỗ - nấu chín giúp giải phóng chất dinh dưỡng tốt hơn và dễ tiêu hóa. Một số rau có thể ăn cả sống và chín tùy sở thích. Quan trọng là rửa sạch kỹ trước khi ăn sống."
+  },
+  {
+    "id": 19,
+    "question": "Nông sản mùa nào ngon nhất?",
+    "answer": "Mỗi mùa có nông sản đặc trưng: Mùa xuân (tháng 2-4): rau cải, đậu Hà Lan, dâu tây. Mùa hè (tháng 5-7): dưa hấu, xoài, nhãn, vải, rau muống. Mùa thu (tháng 8-10): bí đỏ, khoai lang, cam, quýt. Mùa đông (tháng 11-1): cà rốt, su hào, bắp cải, cam sành. Nông sản theo mùa thường tươi ngon, giá tốt và giàu dinh dưỡng nhất."
+  },
+  {
+    "id": 20,
+    "question": "Làm thế nào để chọn khoai tây ngon?",
+    "answer": "Chọn khoai tây ngon: 1) Chọn củ chắc, không mềm nhũn, 2) Vỏ mịn, không có đốm xanh hoặc mầm mọc, 3) Không có vết nứt hoặc dập, 4) Màu vàng tự nhiên, không quá xanh, 5) Kích thước vừa phải, không quá to hoặc quá nhỏ. Khoai tây có đốm xanh chứa solanine không tốt cho sức khỏe. Nên bảo quản khoai tây ở nơi khô ráo, tối, tránh ánh sáng."
+  },
+  {
+    "id": 21,
+    "question": "Rau củ nào giàu sắt nhất?",
+    "answer": "Rau củ giàu sắt: 1) Rau muống, rau ngót - nguồn sắt dồi dào, 2) Rau dền, rau cải xoăn - giàu sắt và vitamin C, 3) Đậu đỗ các loại - sắt và protein, 4) Bông cải xanh, súp lơ - sắt và vitamin C, 5) Cải bó xôi - giàu sắt và folate. Để hấp thụ sắt tốt hơn, nên ăn kèm với thực phẩm giàu vitamin C như cam, ớt chuông. Sắt từ thực vật cần được bổ sung đủ trong chế độ ăn hàng ngày."
+  },
+  {
+    "id": 22,
+    "question": "Cách chọn cà chua ngon?",
+    "answer": "Chọn cà chua ngon: 1) Chọn quả có màu đỏ đều, không có đốm xanh hoặc vàng, 2) Cà chua chín có mùi thơm đặc trưng, 3) Cầm chắc tay, không quá mềm, 4) Vỏ mịn, không bị dập hoặc nứt, 5) Cuống còn tươi, không héo. Cà chua chín tự nhiên thường có màu đỏ đậm, mùi thơm và vị ngọt. Nên bảo quản ở nhiệt độ phòng, tránh tủ lạnh để giữ hương vị."
+  },
+  {
+    "id": 23,
+    "question": "Nông sản nào tốt cho mắt?",
+    "answer": "Nông sản tốt cho mắt: 1) Cà rốt - beta-carotene chuyển thành vitamin A, 2) Rau xanh đậm (cải bó xôi, cải xoăn) - lutein và zeaxanthin, 3) Ớt chuông đỏ, vàng - vitamin C và beta-carotene, 4) Khoai lang - beta-carotene và vitamin A, 5) Bắp ngô - lutein và zeaxanthin. Những chất này giúp bảo vệ mắt khỏi tác hại của ánh sáng xanh, giảm nguy cơ đục thủy tinh thể và thoái hóa điểm vàng."
+  },
+  {
+    "id": 24,
+    "question": "Làm sao để bảo quản rau củ không bị héo?",
+    "answer": "Bảo quản rau củ không héo: 1) Rửa sạch và để ráo nước hoàn toàn, 2) Bọc trong khăn giấy ẩm hoặc túi giấy có lỗ thông khí, 3) Để trong ngăn mát tủ lạnh (2-5 độ C), 4) Rau có lá để đứng trong cốc nước nhỏ, 5) Không bọc kín bằng túi nilon. Rau củ cần độ ẩm vừa phải, quá ẩm sẽ úng, quá khô sẽ héo. Kiểm tra và loại bỏ phần héo úa thường xuyên."
+  },
+  {
+    "id": 25,
+    "question": "Trái cây nào ít đường nhất?",
+    "answer": "Trái cây ít đường: 1) Dưa chuột - rất ít đường, nhiều nước, 2) Dâu tây - ít đường, giàu chất xơ, 3) Bưởi - ít đường, giàu vitamin C, 4) Đào, mơ - ít đường hơn các loại trái cây ngọt, 5) Quả mâm xôi, việt quất - ít đường, giàu chất chống oxy hóa. Những trái cây này phù hợp cho người ăn kiêng, tiểu đường hoặc muốn kiểm soát lượng đường. Nên ăn với lượng vừa phải."
+  },
+  {
+    "id": 26,
+    "question": "Rau củ nào tốt cho hệ tiêu hóa?",
+    "answer": "Rau củ tốt cho tiêu hóa: 1) Đậu bắp - chất nhầy giúp bảo vệ dạ dày, 2) Khoai lang - chất xơ và enzyme tốt cho tiêu hóa, 3) Bí đỏ - chất xơ mềm, dễ tiêu, 4) Cà rốt - pectin giúp cân bằng vi khuẩn đường ruột, 5) Rau xanh đậm - chất xơ và magie. Những rau củ này giàu chất xơ, enzyme và prebiotic giúp hệ tiêu hóa hoạt động tốt, ngăn ngừa táo bón."
+  },
+  {
+    "id": 27,
+    "question": "Cách chọn bắp cải ngon?",
+    "answer": "Chọn bắp cải ngon: 1) Chọn bắp chắc, nặng tay, lá cuộn chặt, 2) Lá xanh tươi, không vàng hoặc đốm nâu, 3) Không có mùi lạ hoặc dấu hiệu hư hỏng, 4) Cuống còn tươi, không héo, 5) Kích thước vừa phải, không quá to. Bắp cải ngon thường có lá giòn, màu xanh đậm và không bị sâu. Bảo quản trong tủ lạnh có thể giữ được 1-2 tuần."
+  },
+  {
+    "id": 28,
+    "question": "Nông sản nào giàu protein?",
+    "answer": "Nông sản giàu protein: 1) Đậu nành, đậu phụ - nguồn protein thực vật dồi dào, 2) Đậu đỗ các loại (đậu xanh, đậu đen, đậu đỏ) - protein và chất xơ, 3) Đậu bắp - protein và chất xơ, 4) Rau chân vịt, bông cải - protein và sắt, 5) Hạt các loại (hạt điều, hạnh nhân) - protein và chất béo tốt. Protein thực vật là nguồn dinh dưỡng quan trọng cho người ăn chay và người muốn bổ sung protein lành mạnh."
+  },
+  {
+    "id": 29,
+    "question": "Làm thế nào để chọn dưa hấu ngon?",
+    "answer": "Chọn dưa hấu ngon: 1) Gõ vào quả, tiếng kêu đục, trầm là ngon, 2) Chọn quả nặng tay so với kích thước, 3) Vỏ có vân rõ ràng, màu xanh đậm, 4) Đáy quả có vết vàng (nơi tiếp xúc đất) là dưa chín tự nhiên, 5) Cuống khô, héo là dưa đã chín. Dưa hấu ngon thường có vỏ cứng, màu sắc đều và có mùi thơm nhẹ. Nên chọn dưa theo mùa để đảm bảo độ ngon."
+  },
+  {
+    "id": 30,
+    "question": "Rau củ nào tốt cho phụ nữ mang thai?",
+    "answer": "Rau củ tốt cho bà bầu: 1) Rau xanh đậm (cải bó xôi, rau ngót) - folate và sắt, 2) Bông cải xanh - folate, vitamin C, canxi, 3) Khoai lang - beta-carotene và chất xơ, 4) Cà rốt - vitamin A và chất xơ, 5) Đậu đỗ - protein, folate và sắt. Những rau củ này giàu folate (quan trọng cho thai nhi), sắt, canxi và các vitamin cần thiết. Nên rửa sạch kỹ và nấu chín trước khi ăn."
+  },
+  {
+    "id": 31,
+    "question": "Cách bảo quản nông sản tươi trong mùa hè?",
+    "answer": "Bảo quản nông sản mùa hè: 1) Cho vào tủ lạnh ngay sau khi mua, 2) Rửa sạch và để ráo trước khi bảo quản, 3) Bọc trong túi giấy hoặc khăn giấy để hút ẩm, 4) Để trong ngăn mát (2-5 độ C), tránh ngăn đá, 5) Kiểm tra thường xuyên, loại bỏ phần hư hỏng. Mùa hè nóng ẩm dễ làm nông sản hư hỏng nhanh, nên bảo quản cẩn thận và dùng sớm. Không để nông sản ở nhiệt độ phòng quá lâu."
+  },
+  {
+    "id": 32,
+    "question": "Trái cây nào tốt cho người bị tiểu đường?",
+    "answer": "Trái cây tốt cho người tiểu đường: 1) Táo, lê - chỉ số đường huyết thấp, giàu chất xơ, 2) Bưởi - ít đường, giàu vitamin C, 3) Dâu tây, việt quất - ít đường, giàu chất chống oxy hóa, 4) Đào, mơ - chỉ số đường huyết thấp, 5) Cherry - ít đường, giàu chất chống viêm. Nên ăn với lượng vừa phải, tránh trái cây quá ngọt như xoài chín, nhãn, vải. Nên ăn cả quả thay vì nước ép để có chất xơ."
+  },
+  {
+    "id": 33,
+    "question": "Làm sao để chọn cà rốt ngon?",
+    "answer": "Chọn cà rốt ngon: 1) Chọn củ chắc, không mềm nhũn, 2) Màu cam đậm, đều màu, không có đốm xanh, 3) Vỏ mịn, không nứt hoặc dập, 4) Kích thước vừa phải, không quá to (có thể già, xơ), 5) Cuống lá còn tươi nếu có. Cà rốt ngon thường có màu cam đậm, giòn và ngọt. Nên bảo quản trong tủ lạnh, có thể giữ được 2-3 tuần."
+  },
+  {
+    "id": 34,
+    "question": "Nông sản nào giúp tăng cường miễn dịch?",
+    "answer": "Nông sản tăng cường miễn dịch: 1) Trái cây giàu vitamin C (cam, quýt, ổi, kiwi) - tăng sản xuất bạch cầu, 2) Rau xanh đậm - vitamin A, C, E và chất chống oxy hóa, 3) Tỏi, hành - allicin có tính kháng khuẩn, 4) Gừng, nghệ - chống viêm, tăng miễn dịch, 5) Ớt chuông - vitamin C gấp 3 lần cam. Những nông sản này giàu vitamin, khoáng chất và chất chống oxy hóa giúp tăng cường hệ miễn dịch tự nhiên."
+  },
+  {
+    "id": 35,
+    "question": "Cách chọn bí đỏ ngon?",
+    "answer": "Chọn bí đỏ ngon: 1) Chọn quả nặng tay so với kích thước, 2) Vỏ cứng, màu cam đậm đều, không có đốm xanh, 3) Cuống khô, héo là bí đã già, ngon, 4) Không có vết nứt hoặc dập, 5) Kích thước vừa phải, không quá to. Bí đỏ ngon thường có thịt dày, màu cam đậm và vị ngọt. Bảo quản ở nơi khô ráo, thoáng mát có thể giữ được vài tháng."
+  },
+  {
+    "id": 36,
+    "question": "Rau củ nào tốt cho xương khớp?",
+    "answer": "Rau củ tốt cho xương khớp: 1) Rau xanh đậm (cải bó xôi, cải xoăn) - canxi và vitamin K, 2) Bông cải xanh - canxi và vitamin C, 3) Khoai lang - kali và magie, 4) Đậu đỗ - canxi và protein, 5) Cà rốt - beta-carotene chống viêm. Những rau củ này giàu canxi, vitamin K, magie và các khoáng chất cần thiết cho xương chắc khỏe và giảm viêm khớp."
+  },
+  {
+    "id": 37,
+    "question": "Làm thế nào để chọn xoài ngon?",
+    "answer": "Chọn xoài ngon: 1) Chọn quả có mùi thơm đặc trưng ở cuống, 2) Xoài chín có màu vàng đều, không quá xanh, 3) Cầm chắc tay, hơi mềm khi bóp nhẹ, 4) Vỏ mịn, không có đốm đen hoặc dập, 5) Cuống còn tươi. Xoài ngon thường có mùi thơm, vị ngọt và thịt mềm. Nếu mua xoài xanh, để ở nhiệt độ phòng cho chín, sau đó cho vào tủ lạnh."
+  },
+  {
+    "id": 38,
+    "question": "Nông sản nào giúp giảm cân?",
+    "answer": "Nông sản giúp giảm cân: 1) Rau xanh ít calo (dưa chuột, cà chua, rau diếp) - nhiều nước, ít calo, 2) Trái cây ít đường (táo, bưởi, dâu tây) - chất xơ tạo no, 3) Rau củ giàu chất xơ (bông cải, cà rốt) - no lâu, ít calo, 4) Khoai lang - tinh bột tốt, giàu chất xơ, 5) Đậu đỗ - protein và chất xơ. Những nông sản này giúp no lâu, ít calo, giàu chất xơ và dinh dưỡng, hỗ trợ quá trình giảm cân lành mạnh."
+  },
+  {
+    "id": 39,
+    "question": "Cách bảo quản chuối để không bị thâm?",
+    "answer": "Bảo quản chuối: 1) Chuối chưa chín để ở nhiệt độ phòng, tránh ánh nắng, 2) Chuối đã chín cho vào tủ lạnh, vỏ sẽ thâm nhưng ruột vẫn ngon, 3) Bọc cuống chuối bằng màng bọc thực phẩm để chậm chín, 4) Tách từng quả ra khỏi nải để chậm chín, 5) Không để chuối chín chung với trái cây khác. Chuối chín có thể bảo quản trong tủ lạnh 2-3 ngày, vỏ thâm nhưng vẫn ăn được."
+  },
+  {
+    "id": 40,
+    "question": "Rau củ nào tốt cho não bộ?",
+    "answer": "Rau củ tốt cho não: 1) Rau xanh đậm (cải bó xôi, cải xoăn) - folate và vitamin K, 2) Bông cải xanh - choline và vitamin K, 3) Cà chua - lycopene chống oxy hóa, 4) Khoai lang - beta-carotene và chất chống oxy hóa, 5) Củ cải đường - nitrat giúp tăng lưu thông máu não. Những rau củ này giàu chất chống oxy hóa, vitamin và khoáng chất giúp cải thiện trí nhớ, tăng cường chức năng não và chống lão hóa não."
+  },
+  {
+    "id": 41,
+    "question": "Làm thế nào để chọn cam ngon?",
+    "answer": "Chọn cam ngon: 1) Chọn quả nặng tay so với kích thước (nhiều nước), 2) Vỏ mịn, màu cam đậm đều, không có đốm xanh, 3) Cầm chắc tay, không quá mềm, 4) Có mùi thơm đặc trưng, 5) Cuống còn tươi. Cam ngon thường có vỏ mỏng, nhiều nước và vị ngọt. Nên bảo quản ở nhiệt độ phòng hoặc tủ lạnh, có thể giữ được 1-2 tuần."
+  },
+  {
+    "id": 42,
+    "question": "Nông sản nào giàu canxi?",
+    "answer": "Nông sản giàu canxi: 1) Rau xanh đậm (cải bó xôi, cải xoăn, rau ngót) - nguồn canxi dồi dào, 2) Đậu đỗ các loại - canxi và protein, 3) Bông cải xanh - canxi và vitamin C, 4) Đậu bắp - canxi và chất xơ, 5) Hạt vừng, hạt chia - canxi và chất béo tốt. Canxi từ thực vật dễ hấp thụ và là nguồn bổ sung quan trọng cho người ăn chay hoặc không uống sữa."
+  },
+  {
+    "id": 43,
+    "question": "Cách chọn dưa chuột tươi ngon?",
+    "answer": "Chọn dưa chuột tươi: 1) Chọn quả cứng, giòn, không mềm nhũn, 2) Màu xanh đậm đều, không vàng hoặc đốm, 3) Vỏ mịn, không có vết nứt, 4) Kích thước vừa phải, không quá to (có thể già, đắng), 5) Cuống còn tươi, không héo. Dưa chuột tươi thường có vỏ căng, giòn và nhiều nước. Bảo quản trong tủ lạnh có thể giữ được 5-7 ngày."
+  },
+  {
+    "id": 44,
+    "question": "Trái cây nào tốt cho người tập gym?",
+    "answer": "Trái cây tốt cho người tập gym: 1) Chuối - kali và carbohydrate nhanh, phục hồi năng lượng, 2) Táo - carbohydrate và chất xơ, 3) Dưa hấu - nước và đường tự nhiên, bù nước, 4) Dâu tây - vitamin C và chất chống oxy hóa, 5) Cam - vitamin C và carbohydrate. Những trái cây này giúp bổ sung năng lượng, điện giải và chất chống oxy hóa sau khi tập, hỗ trợ phục hồi cơ bắp."
+  },
+  {
+    "id": 45,
+    "question": "Rau củ nào tốt cho người cao tuổi?",
+    "answer": "Rau củ tốt cho người cao tuổi: 1) Rau xanh đậm - folate, canxi, vitamin K, 2) Khoai lang - beta-carotene, chất xơ mềm, dễ tiêu, 3) Bí đỏ - beta-carotene, chất xơ, dễ ăn, 4) Cà rốt - vitamin A, dễ chế biến, 5) Đậu đỗ - protein, chất xơ, mềm. Những rau củ này giàu dinh dưỡng, dễ tiêu hóa, tốt cho xương, tim mạch và mắt - những vấn đề thường gặp ở người cao tuổi."
+  },
+  {
+    "id": 46,
+    "question": "Làm sao để chọn đậu que tươi?",
+    "answer": "Chọn đậu que tươi: 1) Chọn quả cứng, giòn, không mềm nhũn, 2) Màu xanh đậm đều, không vàng hoặc đốm, 3) Kích thước vừa phải, không quá to (có thể già, xơ), 4) Không có vết nứt hoặc dập, 5) Cuống còn tươi. Đậu que tươi thường giòn, ngọt và dễ chế biến. Bảo quản trong tủ lạnh có thể giữ được 3-5 ngày."
+  },
+  {
+    "id": 47,
+    "question": "Nông sản nào giúp ngủ ngon?",
+    "answer": "Nông sản giúp ngủ ngon: 1) Chuối - tryptophan và magie giúp thư giãn, 2) Cherry - melatonin tự nhiên, 3) Rau xanh đậm - magie và canxi, 4) Khoai lang - carbohydrate giúp tăng serotonin, 5) Hạt hạnh nhân - magie và tryptophan. Những nông sản này chứa các chất giúp thư giãn, tăng melatonin và serotonin - hormone giúp ngủ ngon. Nên ăn trước khi ngủ 1-2 giờ."
+  },
+  {
+    "id": 48,
+    "question": "Cách chọn bơ ngon?",
+    "answer": "Chọn bơ ngon: 1) Chọn quả có màu xanh đậm hoặc tím đậm, 2) Cầm chắc tay, hơi mềm khi bóp nhẹ (không quá mềm), 3) Vỏ mịn, không có đốm đen hoặc dập, 4) Cuống còn tươi, không héo, 5) Kích thước vừa phải. Bơ chín có thể bóp nhẹ thấy mềm, vỏ hơi lõm. Nếu mua bơ xanh, để ở nhiệt độ phòng cho chín, sau đó cho vào tủ lạnh để bảo quản."
+  },
+  {
+    "id": 49,
+    "question": "Rau củ nào tốt cho da?",
+    "answer": "Rau củ tốt cho da: 1) Cà chua - lycopene chống nắng, chống lão hóa, 2) Cà rốt - beta-carotene làm da sáng, 3) Rau xanh đậm - vitamin A, C, E chống oxy hóa, 4) Dưa chuột - nước và silica dưỡng ẩm da, 5) Ớt chuông - vitamin C gấp 3 lần cam. Những rau củ này giàu chất chống oxy hóa, vitamin và khoáng chất giúp da khỏe mạnh, sáng mịn, chống lão hóa và bảo vệ da khỏi tác hại của ánh nắng."
+  },
+  {
+    "id": 50,
+    "question": "Làm thế nào để chọn nấm tươi ngon?",
+    "answer": "Chọn nấm tươi ngon: 1) Chọn nấm có màu sắc tươi, không bị thâm đen, 2) Mũ nấm còn chắc, không mềm nhũn, 3) Không có mùi lạ hoặc mùi hôi, 4) Không có dấu hiệu nấm mốc hoặc nhớt, 5) Chân nấm còn tươi, không héo. Nấm tươi thường có mùi thơm đặc trưng, màu sắc tươi sáng. Nên bảo quản trong tủ lạnh, dùng trong 2-3 ngày. Rửa nhẹ nhàng trước khi chế biến."
+  }
+]
+

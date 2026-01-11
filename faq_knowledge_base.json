@@ -1,0 +1,223 @@
+[
+  {
+    "id": 1,
+    "question": "Làm thế nào để đặt hàng nông sản trên website?",
+    "answer": "Bạn có thể đặt hàng bằng cách: 1) Tìm kiếm sản phẩm nông sản bạn muốn mua, 2) Thêm sản phẩm vào giỏ hàng, 3) Kiểm tra lại thông tin đơn hàng và địa chỉ giao hàng, 4) Chọn phương thức thanh toán phù hợp, 5) Xác nhận đơn hàng. Sau khi đặt hàng thành công, bạn sẽ nhận được email xác nhận với mã đơn hàng để theo dõi."
+  },
+  {
+    "id": 2,
+    "question": "Các phương thức thanh toán nào được chấp nhận?",
+    "answer": "Chúng tôi chấp nhận nhiều phương thức thanh toán: thanh toán khi nhận hàng (COD),  ví điện tử (MoMo, Vnpay). Bạn có thể chọn phương thức phù hợp nhất khi thanh toán đơn hàng."
+  },
+  {
+    "id": 3,
+    "question": "Thời gian giao hàng là bao lâu?",
+    "answer": "Thời gian giao hàng phụ thuộc vào khu vực: Nội thành thành phố thường từ 1-2 ngày, ngoại thành từ 2-3 ngày, các tỉnh thành khác từ 3-5 ngày làm việc. Đối với nông sản tươi sống, chúng tôi ưu tiên giao hàng nhanh để đảm bảo chất lượng sản phẩm."
+  },
+  {
+    "id": 4,
+    "question": "Phí vận chuyển được tính như thế nào?",
+    "answer": "Phí vận chuyển được tính dựa trên khoảng cách và trọng lượng đơn hàng. Đơn hàng trên 500.000 VNĐ thường được miễn phí vận chuyển trong nội thành. Đối với các khu vực khác, phí vận chuyển sẽ được hiển thị rõ ràng khi bạn nhập địa chỉ giao hàng."
+  },
+  {
+    "id": 5,
+    "question": "Làm sao để kiểm tra tình trạng đơn hàng?",
+    "answer": "Bạn có thể kiểm tra tình trạng đơn hàng bằng cách: 1) Đăng nhập vào tài khoản và vào mục 'Đơn hàng của tôi'"
+  },
+  {
+    "id": 6,
+    "question": "Nông sản có đảm bảo tươi ngon không?",
+    "answer": "Chúng tôi cam kết cung cấp nông sản tươi ngon, có nguồn gốc rõ ràng. Tất cả sản phẩm được thu hoạch và đóng gói cẩn thận, bảo quản trong điều kiện phù hợp. Chúng tôi có chính sách đổi trả nếu sản phẩm không đạt chất lượng như cam kết."
+  },
+  {
+    "id": 7,
+    "question": "Có thể đổi trả hàng không?",
+    "answer": "Có, bạn có thể đổi trả hàng trong vòng 7 ngày kể từ ngày nhận hàng nếu sản phẩm bị lỗi, không đúng mô tả, hoặc không đạt chất lượng. Đối với nông sản tươi sống, vui lòng liên hệ ngay trong vòng 24 giờ để được hỗ trợ tốt nhất."
+  },
+  {
+    "id": 8,
+    "question": "Làm thế nào để hủy đơn hàng?",
+    "answer": "Bạn có thể hủy đơn hàng trong vòng 2 giờ sau khi đặt hàng nếu đơn hàng chưa được xử lý. Vui lòng liên hệ hotline hoặc gửi yêu cầu hủy qua email với mã đơn hàng. Đối với đơn hàng đã được xác nhận và đang chuẩn bị giao, vui lòng liên hệ bộ phận chăm sóc khách hàng."
+  },
+  {
+    "id": 9,
+    "question": "Có chương trình khuyến mãi nào không?",
+    "answer": "Chúng tôi thường xuyên có các chương trình khuyến mãi như giảm giá theo ngày, combo sản phẩm, mã giảm giá cho khách hàng mới, tích điểm đổi quà. Bạn có thể theo dõi các chương trình khuyến mãi trên trang chủ hoặc đăng ký nhận thông báo qua email."
+  },
+  {
+    "id": 10,
+    "question": "Làm sao để đăng ký tài khoản?",
+    "answer": "Bạn có thể đăng ký tài khoản bằng cách: 1) Click vào nút 'Đăng ký' ở góc trên cùng, 2) Điền thông tin email, số điện thoại và mật khẩu, 3) Xác nhận email hoặc số điện thoại, 4) Hoàn tất đăng ký. Bạn cũng có thể đăng nhập nhanh bằng tài khoản Google hoặc Facebook."
+  },
+  {
+    "id": 11,
+    "question": "Nông sản có nguồn gốc từ đâu?",
+    "answer": "Nông sản của chúng tôi được thu mua trực tiếp từ các nông trại uy tín, hợp tác xã nông nghiệp và nhà cung cấp có chứng nhận chất lượng. Mỗi sản phẩm đều có thông tin về nguồn gốc, xuất xứ rõ ràng được hiển thị trên trang sản phẩm."
+  },
+  {
+    "id": 12,
+    "question": "Có giao hàng vào cuối tuần không?",
+    "answer": "Có, chúng tôi giao hàng cả thứ 7 và Chủ nhật. Tuy nhiên, thời gian giao hàng có thể lâu hơn một chút so với ngày thường. Bạn có thể chọn khung giờ giao hàng phù hợp khi đặt hàng."
+  },
+  {
+    "id": 13,
+    "question": "Làm thế nào để tìm sản phẩm nông sản cụ thể?",
+    "answer": "Bạn có thể tìm kiếm sản phẩm bằng cách: 1) Sử dụng thanh tìm kiếm với tên sản phẩm, 2) Lọc theo danh mục (rau củ, trái cây, thực phẩm khô...), 3) Lọc theo giá, 4) Sắp xếp theo độ phổ biến hoặc giá. Bạn cũng có thể hỏi trực tiếp chatbot để được tư vấn sản phẩm phù hợp."
+  },
+  {
+    "id": 14,
+    "question": "Có chính sách tích điểm không?",
+    "answer": "Có, chúng tôi có chương trình tích điểm thân thiện. Mỗi 10.000 VNĐ bạn chi tiêu sẽ được tích 1 điểm. Điểm tích lũy có thể được sử dụng để giảm giá cho các đơn hàng tiếp theo. Điểm có thời hạn sử dụng và sẽ được cập nhật trong tài khoản của bạn."
+  },
+  {
+    "id": 15,
+    "question": "Làm sao để cập nhật thông tin cá nhân?",
+    "answer": "Bạn có thể cập nhật thông tin cá nhân bằng cách: 1) Đăng nhập vào tài khoản, 2) Vào mục 'Thông tin tài khoản' hoặc 'Hồ sơ', 3) Chỉnh sửa thông tin cần thay đổi (tên, số điện thoại, địa chỉ...), 4) Lưu thay đổi. Thông tin sẽ được cập nhật ngay lập tức."
+  },
+  {
+    "id": 16,
+    "question": "Có hỗ trợ đặt hàng qua điện thoại không?",
+    "answer": "Có, bạn có thể đặt hàng qua hotline của chúng tôi. Nhân viên sẽ hỗ trợ bạn chọn sản phẩm, tư vấn và hoàn tất đơn hàng. Hotline hoạt động từ 8:00 đến 22:00 hàng ngày, kể cả cuối tuần."
+  },
+  {
+    "id": 17,
+    "question": "Nông sản được đóng gói như thế nào?",
+    "answer": "Nông sản được đóng gói cẩn thận trong túi bảo quản thực phẩm, hộp nhựa hoặc túi giấy tùy loại sản phẩm. Rau củ tươi được bảo quản trong túi có lỗ thông khí, trái cây được bọc riêng để tránh dập. Tất cả được đóng trong thùng carton chắc chắn để đảm bảo an toàn khi vận chuyển."
+  },
+  {
+    "id": 18,
+    "question": "Có thể đặt hàng số lượng lớn không?",
+    "answer": "Có, chúng tôi hỗ trợ đặt hàng số lượng lớn cho các đơn vị, nhà hàng, quán ăn. Bạn sẽ được hưởng giá ưu đãi đặc biệt và có thể liên hệ trực tiếp với bộ phận bán hàng để được tư vấn và báo giá chi tiết."
+  },
+  {
+    "id": 19,
+    "question": "Làm sao để nhận thông báo về sản phẩm mới?",
+    "answer": "Bạn có thể nhận thông báo bằng cách: 1) Đăng ký nhận email thông báo trong phần cài đặt tài khoản, 2) Theo dõi trang Facebook hoặc Instagram của chúng tôi, 3) Bật thông báo đẩy trên ứng dụng di động (nếu có), 4) Đăng ký nhận tin nhắn SMS."
+  },
+  {
+    "id": 20,
+    "question": "Có chương trình giảm giá cho khách hàng thân thiết không?",
+    "answer": "Có, khách hàng thân thiết sẽ được hưởng nhiều ưu đãi đặc biệt như giảm giá 5-10% cho mọi đơn hàng, ưu tiên giao hàng, quà tặng sinh nhật, và được mời tham gia các sự kiện đặc biệt. Bạn sẽ tự động trở thành khách hàng thân thiết sau khi tích lũy đủ điểm hoặc số đơn hàng nhất định."
+  },
+  {
+    "id": 21,
+    "question": "Làm thế nào để bảo quản nông sản sau khi nhận?",
+    "answer": "Rau củ tươi nên được bảo quản trong ngăn mát tủ lạnh, để trong túi có lỗ thông khí. Trái cây nên để ở nhiệt độ phòng nếu chưa chín, sau đó cho vào tủ lạnh khi đã chín. Thực phẩm khô nên để nơi khô ráo, tránh ánh sáng trực tiếp. Mỗi sản phẩm có hướng dẫn bảo quản cụ thể trên bao bì."
+  },
+  {
+    "id": 22,
+    "question": "Có hỗ trợ thanh toán trả góp không?",
+    "answer": "Hiện tại chúng tôi chưa hỗ trợ thanh toán trả góp. Tuy nhiên, bạn có thể sử dụng các phương thức thanh toán như COD (trả tiền khi nhận hàng), chuyển khoản, hoặc thẻ tín dụng. Chúng tôi đang nghiên cứu thêm các phương thức thanh toán linh hoạt hơn trong tương lai."
+  },
+  {
+    "id": 23,
+    "question": "Làm sao để khiếu nại về chất lượng sản phẩm?",
+    "answer": "Nếu bạn gặp vấn đề về chất lượng sản phẩm, vui lòng: 1) Chụp ảnh sản phẩm có vấn đề, 2) Liên hệ ngay hotline hoặc gửi email với mã đơn hàng và hình ảnh, 3) Mô tả chi tiết vấn đề. Chúng tôi sẽ xử lý và phản hồi trong vòng 24 giờ, có thể đổi trả hoặc hoàn tiền tùy trường hợp."
+  },
+  {
+    "id": 24,
+    "question": "Có giao hàng tận nơi không?",
+    "answer": "Có, chúng tôi giao hàng tận nơi trên toàn quốc. Bạn chỉ cần cung cấp địa chỉ chi tiết khi đặt hàng, bao gồm số nhà, tên đường, phường/xã, quận/huyện, tỉnh/thành phố. Nhân viên giao hàng sẽ liên hệ trước khi đến để đảm bảo bạn có mặt nhận hàng."
+  },
+  {
+    "id": 25,
+    "question": "Làm thế nào để sử dụng mã giảm giá?",
+    "answer": "Khi thanh toán đơn hàng, bạn sẽ thấy ô 'Nhập mã giảm giá' hoặc 'Mã khuyến mãi'. Nhập mã vào ô đó và click 'Áp dụng'. Mã hợp lệ sẽ tự động giảm giá cho đơn hàng. Lưu ý: mỗi mã có điều kiện sử dụng riêng (ví dụ: đơn hàng tối thiểu, thời hạn sử dụng)."
+  },
+  {
+    "id": 26,
+    "question": "Có thể xem lịch sử mua hàng không?",
+    "answer": "Có, sau khi đăng nhập vào tài khoản, bạn vào mục 'Đơn hàng của tôi' hoặc 'Lịch sử mua hàng' để xem tất cả các đơn hàng đã đặt. Bạn có thể xem chi tiết từng đơn hàng, tải hóa đơn, và đặt lại các sản phẩm đã mua trước đó."
+  },
+  {
+    "id": 27,
+    "question": "Nông sản có chứng nhận an toàn thực phẩm không?",
+    "answer": "Có, chúng tôi chỉ kinh doanh nông sản có nguồn gốc rõ ràng và đảm bảo an toàn thực phẩm. Nhiều sản phẩm có chứng nhận VietGAP, GlobalGAP, hoặc các chứng nhận hữu cơ. Thông tin chứng nhận được hiển thị trên trang sản phẩm để khách hàng tham khảo."
+  },
+  {
+    "id": 28,
+    "question": "Có thể đặt hàng trước không?",
+    "answer": "Có, bạn có thể đặt hàng trước cho các sản phẩm đang hết hàng hoặc sản phẩm theo mùa. Khi đặt hàng trước, bạn sẽ được thông báo khi sản phẩm có hàng và đơn hàng sẽ được ưu tiên xử lý. Một số sản phẩm có thể yêu cầu đặt cọc."
+  },
+  {
+    "id": 29,
+    "question": "Làm sao để thay đổi địa chỉ giao hàng?",
+    "answer": "Bạn có thể thay đổi địa chỉ giao hàng: 1) Trong quá trình đặt hàng, click vào phần địa chỉ để chỉnh sửa, 2) Nếu đơn hàng đã đặt nhưng chưa được xử lý, liên hệ hotline để yêu cầu thay đổi, 3) Lưu nhiều địa chỉ trong tài khoản để chọn nhanh khi đặt hàng."
+  },
+  {
+    "id": 31,
+    "question": "Nông sản có được kiểm tra chất lượng trước khi giao không?",
+    "answer": "Có, tất cả nông sản đều được kiểm tra chất lượng kỹ lưỡng trước khi đóng gói và giao hàng. Nhân viên kiểm tra độ tươi, không bị hư hỏng, đúng trọng lượng và đảm bảo vệ sinh an toàn thực phẩm. Chúng tôi cam kết chỉ giao sản phẩm đạt tiêu chuẩn chất lượng."
+  },
+  {
+    "id": 32,
+    "question": "Có thể mua sỉ không?",
+    "answer": "Có, chúng tôi có chính sách bán sỉ cho các đơn vị kinh doanh, nhà hàng, quán ăn với số lượng lớn. Giá sỉ sẽ được tính dựa trên số lượng đặt hàng và có thể thương lượng. Vui lòng liên hệ bộ phận bán hàng để được tư vấn và báo giá chi tiết."
+  },
+  {
+    "id": 33,
+    "question": "Làm thế nào để đăng ký nhận bản tin khuyến mãi?",
+    "answer": "Bạn có thể đăng ký nhận bản tin khuyến mãi bằng cách: 1) Điền email vào form đăng ký ở cuối trang web, 2) Tích chọn 'Nhận thông tin khuyến mãi' khi đăng ký tài khoản, 3) Theo dõi trang mạng xã hội của chúng tôi. Bạn có thể hủy đăng ký bất cứ lúc nào."
+  },
+  {
+    "id": 34,
+    "question": "Có hỗ trợ giao hàng trong ngày không?",
+    "answer": "Có, chúng tôi hỗ trợ giao hàng trong ngày cho các đơn hàng đặt trước 12:00 trưa trong khu vực nội thành. Phí giao hàng nhanh có thể cao hơn một chút so với giao hàng thông thường. Bạn có thể chọn dịch vụ này khi thanh toán đơn hàng."
+  },
+  {
+    "id": 35,
+    "question": "Làm sao để biết sản phẩm còn hàng hay không?",
+    "answer": "Trạng thái tồn kho được hiển thị trực tiếp trên trang sản phẩm. Nếu sản phẩm còn hàng, bạn sẽ thấy nút 'Thêm vào giỏ'. Nếu hết hàng, sẽ hiển thị 'Tạm hết hàng' và bạn có thể đăng ký nhận thông báo khi có hàng trở lại."
+  },
+  {
+    "id": 36,
+    "question": "Có thể đặt hàng định kỳ không?",
+    "answer": "Có, chúng tôi hỗ trợ đặt hàng định kỳ (subscription) cho các sản phẩm bạn thường xuyên sử dụng. Bạn có thể chọn tần suất giao hàng (hàng tuần, 2 tuần, hàng tháng) và sẽ được giảm giá đặc biệt. Bạn có thể hủy hoặc thay đổi đơn hàng định kỳ bất cứ lúc nào."
+  },
+  {
+    "id": 37,
+    "question": "Làm thế nào để liên hệ hỗ trợ khách hàng?",
+    "answer": "Bạn có thể liên hệ hỗ trợ khách hàng qua nhiều kênh: 1) Hotline (hoạt động 8:00-22:00), 2) Email hỗ trợ, 3) Chat trực tuyến trên website, 4) Chatbot AI tự động, 5) Fanpage Facebook. Chúng tôi cam kết phản hồi trong vòng 24 giờ."
+  },
+  {
+    "id": 38,
+    "question": "Có chính sách hoàn tiền không?",
+    "answer": "Có, chúng tôi có chính sách hoàn tiền trong các trường hợp: sản phẩm bị lỗi, không đúng mô tả, giao sai hàng, hoặc khách hàng hủy đơn hàng đúng quy định. Thời gian hoàn tiền thường từ 3-7 ngày làm việc tùy phương thức thanh toán ban đầu."
+  },
+  {
+    "id": 39,
+    "question": "Nông sản có được trồng hữu cơ không?",
+    "answer": "Chúng tôi có cả nông sản thông thường và nông sản hữu cơ. Sản phẩm hữu cơ được đánh dấu rõ ràng trên website với chứng nhận hữu cơ. Bạn có thể lọc sản phẩm theo danh mục 'Nông sản hữu cơ' để xem các sản phẩm này."
+  },
+  {
+    "id": 40,
+    "question": "Làm sao để đánh giá sản phẩm sau khi mua?",
+    "answer": "Sau khi nhận hàng, bạn có thể đánh giá sản phẩm bằng cách: 1) Vào mục 'Đơn hàng của tôi', 2) Chọn đơn hàng đã nhận, 3) Click 'Đánh giá sản phẩm', 4) Chọn sao và viết nhận xét, có thể kèm hình ảnh. Đánh giá của bạn giúp khách hàng khác tham khảo."
+  },
+  {
+    "id": 41,
+    "question": "Có thể mua combo sản phẩm không?",
+    "answer": "Có, chúng tôi thường xuyên có các combo sản phẩm với giá ưu đãi, ví dụ: combo rau củ theo tuần, combo trái cây theo mùa, combo nông sản cho gia đình. Combo giúp bạn tiết kiệm chi phí và đa dạng bữa ăn. Bạn có thể tìm combo trong mục 'Khuyến mãi' hoặc 'Combo'."
+  },
+  {
+    "id": 42,
+    "question": "Làm thế nào để quên mật khẩu?",
+    "answer": "Nếu quên mật khẩu, bạn click vào 'Quên mật khẩu' ở trang đăng nhập, nhập email hoặc số điện thoại đã đăng ký. Hệ thống sẽ gửi link đặt lại mật khẩu qua email hoặc mã OTP qua SMS. Làm theo hướng dẫn để tạo mật khẩu mới."
+  },
+  {
+    "id": 43,
+    "question": "Có giao hàng vào ban đêm không?",
+    "answer": "Hiện tại chúng tôi giao hàng từ 8:00 đến 20:00 hàng ngày. Chúng tôi chưa hỗ trợ giao hàng ban đêm để đảm bảo an toàn cho nhân viên và chất lượng sản phẩm. Tuy nhiên, bạn có thể chọn khung giờ giao hàng phù hợp khi đặt hàng."
+  },
+  {
+    "id": 44,
+    "question": "Nông sản có được đóng gói theo yêu cầu không?",
+    "answer": "Đối với đơn hàng số lượng lớn hoặc đơn hàng đặc biệt, chúng tôi có thể đóng gói theo yêu cầu của khách hàng. Vui lòng liên hệ trước với bộ phận bán hàng để thảo luận về yêu cầu đóng gói và có thể phát sinh thêm chi phí."
+  },
+  {
+    "id": 46,
+    "question": "Có chương trình tặng quà sinh nhật không?",
+    "answer": "Có, khách hàng thân thiết sẽ nhận được mã giảm giá đặc biệt hoặc quà tặng vào ngày sinh nhật. Bạn cần cập nhật ngày sinh trong thông tin tài khoản để nhận được ưu đãi này. Quà tặng sẽ được gửi qua email hoặc hiển thị trong tài khoản."
+  }
+]
+
